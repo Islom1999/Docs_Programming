@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-2d0a9a6d","path":"/js/","title":"Javascript Darslari","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1685946455000,"contributors":[{"name":"Islom Karimov","email":"islomkarimovalisherovich@gmail.com","commits":1}]},"filePathRelative":"js/index.md"}');export{a as data};

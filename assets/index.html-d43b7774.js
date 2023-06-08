@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-15464e26","path":"/scss/","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1686145583000,"contributors":[{"name":"Islom Karimov","email":"islomkarimovalisherovich@gmail.com","commits":1}]},"filePathRelative":"scss/index.md"}');export{e as data};

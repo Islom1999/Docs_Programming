@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.62">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>📔 16-dars | Documentation</title><meta name="description" content="Just playing around">
+    <link rel="preload" href="/assets/style-a06b311d.css" as="style"><link rel="stylesheet" href="/assets/style-a06b311d.css">
+    <link rel="modulepreload" href="/assets/app-d17e5b05.js"><link rel="modulepreload" href="/assets/16-dars.html-30ebee24.js"><link rel="modulepreload" href="/assets/16-dars.html-a593f1f3.js"><link rel="prefetch" href="/assets/index.html-d020dd49.js" as="script"><link rel="prefetch" href="/assets/index.html-d020dd49.js" as="script"><link rel="prefetch" href="/assets/index.html-0c394fbd.js" as="script"><link rel="prefetch" href="/assets/index.html-968b06b0.js" as="script"><link rel="prefetch" href="/assets/1-dars.html-7bb37a5b.js" as="script"><link rel="prefetch" href="/assets/10-dars.html-f82e47f1.js" as="script"><link rel="prefetch" href="/assets/11-dars.html-976ae75f.js" as="script"><link rel="prefetch" href="/assets/12-dars.html-9e03c486.js" as="script"><link rel="prefetch" href="/assets/13-dars.html-1407373f.js" as="script"><link rel="prefetch" href="/assets/14-dars.html-c5ed2de1.js" as="script"><link rel="prefetch" href="/assets/15-dars.html-6183db4f.js" as="script"><link rel="prefetch" href="/assets/17-dars.html-6355ef21.js" as="script"><link rel="prefetch" href="/assets/18-dars.html-b103d082.js" as="script"><link rel="prefetch" href="/assets/19-dars.html-3d396d20.js" as="script"><link rel="prefetch" href="/assets/2-dars.html-237de34e.js" as="script"><link rel="prefetch" href="/assets/20-dars.html-e5d18356.js" as="script"><link rel="prefetch" href="/assets/3-dars.html-992c8fa3.js" as="script"><link rel="prefetch" href="/assets/4-dars.html-e1246c2e.js" as="script"><link rel="prefetch" href="/assets/5-dars.html-17121a89.js" as="script"><link rel="prefetch" href="/assets/6-dars.html-6b122d70.js" as="script"><link rel="prefetch" href="/assets/7-dars.html-d9e3f82b.js" as="script"><link rel="prefetch" href="/assets/8-dars.html-84e6d460.js" as="script"><link rel="prefetch" href="/assets/9-dars.html-917d5856.js" as="script"><link rel="prefetch" href="/assets/index.html-88a26405.js" as="script"><link rel="prefetch" href="/assets/index.html-d43b7774.js" as="script"><link rel="prefetch" href="/assets/404.html-60b35caa.js" as="script"><link rel="prefetch" href="/assets/index.html-44865a2e.js" as="script"><link rel="prefetch" href="/assets/index.html-44865a2e.js" as="script"><link rel="prefetch" href="/assets/index.html-e8cb6941.js" as="script"><link rel="prefetch" href="/assets/index.html-14e4580d.js" as="script"><link rel="prefetch" href="/assets/1-dars.html-828e45b5.js" as="script"><link rel="prefetch" href="/assets/10-dars.html-ccf8b8fc.js" as="script"><link rel="prefetch" href="/assets/11-dars.html-cc7a400e.js" as="script"><link rel="prefetch" href="/assets/12-dars.html-3e5afa73.js" as="script"><link rel="prefetch" href="/assets/13-dars.html-d472bdd4.js" as="script"><link rel="prefetch" href="/assets/14-dars.html-fc1c3065.js" as="script"><link rel="prefetch" href="/assets/15-dars.html-84dfea60.js" as="script"><link rel="prefetch" href="/assets/17-dars.html-597c4fd3.js" as="script"><link rel="prefetch" href="/assets/18-dars.html-095de08c.js" as="script"><link rel="prefetch" href="/assets/19-dars.html-8fadea37.js" as="script"><link rel="prefetch" href="/assets/2-dars.html-181de506.js" as="script"><link rel="prefetch" href="/assets/20-dars.html-220c305a.js" as="script"><link rel="prefetch" href="/assets/3-dars.html-3dbc4b56.js" as="script"><link rel="prefetch" href="/assets/4-dars.html-62056c9b.js" as="script"><link rel="prefetch" href="/assets/5-dars.html-c89b8dce.js" as="script"><link rel="prefetch" href="/assets/6-dars.html-0a5e59b4.js" as="script"><link rel="prefetch" href="/assets/7-dars.html-8e366c77.js" as="script"><link rel="prefetch" href="/assets/8-dars.html-3f90d86d.js" as="script"><link rel="prefetch" href="/assets/9-dars.html-cd88e9c0.js" as="script"><link rel="prefetch" href="/assets/index.html-975e65a3.js" as="script"><link rel="prefetch" href="/assets/index.html-4e4b8d3d.js" as="script"><link rel="prefetch" href="/assets/404.html-e68f1a5d.js" as="script"><link rel="prefetch" href="/assets/style-e9220a04.js" as="script"><link rel="prefetch" href="/assets/docsearch-1d421ddb.js" as="script"><link rel="prefetch" href="/assets/index-d2e5859f.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><!--[--><header class="navbar"><div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a href="/" class=""><!----><span class="site-name">Documentation</span></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><nav class="navbar-items can-hide"><!--[--><div class="navbar-item"><a href="/html/" class="" aria-label="HTML"><!--[--><!--]--> HTML <!--[--><!--]--></a></div><div class="navbar-item"><a href="/css/" class="" aria-label="CSS"><!--[--><!--]--> CSS <!--[--><!--]--></a></div><div class="navbar-item"><a href="/scss/" class="" aria-label="SCSS"><!--[--><!--]--> SCSS <!--[--><!--]--></a></div><div class="navbar-item"><a href="/js/" class="router-link-active" aria-label="JS"><!--[--><!--]--> JS <!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><button class="toggle-color-mode-button" title="toggle color mode"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!--[--><div id="docsearch-container" style="display:none;"></div><div><button type="button" class="DocSearch DocSearch-Button" aria-label="Search Documentation"><span class="DocSearch-Button-Container"><svg width="20" height="20" class="DocSearch-Search-Icon" viewBox="0 0 20 20"><path d="M14.386 14.386l4.0877 4.0877-4.0877-4.0877c-2.9418 2.9419-7.7115 2.9419-10.6533 0-2.9419-2.9418-2.9419-7.7115 0-10.6533 2.9418-2.9419 7.7115-2.9419 10.6533 0 2.9419 2.9418 2.9419 7.7115 0 10.6533z" stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="DocSearch-Button-Placeholder">Search Documentation</span></span><span class="DocSearch-Button-Keys"><kbd class="DocSearch-Button-Key"><svg width="15" height="15" class="DocSearch-Control-Key-Icon"><path d="M4.505 4.496h2M5.505 5.496v5M8.216 4.496l.055 5.993M10 7.5c.333.333.5.667.5 1v2M12.326 4.5v5.996M8.384 4.496c1.674 0 2.116 0 2.116 1.5s-.442 1.5-2.116 1.5M3.205 9.303c-.09.448-.277 1.21-1.241 1.203C1 10.5.5 9.513.5 8V7c0-1.57.5-2.5 1.464-2.494.964.006 1.134.598 1.24 1.342M12.553 10.5h1.953" stroke-width="1.2" stroke="currentColor" fill="none" stroke-linecap="square"></path></svg></kbd><kbd class="DocSearch-Button-Key">K</kbd></span></button></div><!--]--></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><nav class="navbar-items"><!--[--><div class="navbar-item"><a href="/html/" class="" aria-label="HTML"><!--[--><!--]--> HTML <!--[--><!--]--></a></div><div class="navbar-item"><a href="/css/" class="" aria-label="CSS"><!--[--><!--]--> CSS <!--[--><!--]--></a></div><div class="navbar-item"><a href="/scss/" class="" aria-label="SCSS"><!--[--><!--]--> SCSS <!--[--><!--]--></a></div><div class="navbar-item"><a href="/js/" class="router-link-active" aria-label="JS"><!--[--><!--]--> JS <!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><ul class="sidebar-items"><!--[--><li><p tabindex="0" class="sidebar-item sidebar-heading active">JS Reference <!----></p><ul style="" class="sidebar-item-children"><!--[--><li><a href="/js/1-dars.html" class="sidebar-item" aria-label="📔 1-dars"><!--[--><!--]--> 📔 1-dars <!--[--><!--]--></a><!----></li><li><a href="/js/2-dars.html" class="sidebar-item" aria-label="📔 2-dars"><!--[--><!--]--> 📔 2-dars <!--[--><!--]--></a><!----></li><li><a href="/js/3-dars.html" class="sidebar-item" aria-label="📔 3-dars"><!--[--><!--]--> 📔 3-dars <!--[--><!--]--></a><!----></li><li><a href="/js/4-dars.html" class="sidebar-item" aria-label="📔 4-dars"><!--[--><!--]--> 📔 4-dars <!--[--><!--]--></a><!----></li><li><a href="/js/5-dars.html" class="sidebar-item" aria-label="📔 5-dars"><!--[--><!--]--> 📔 5-dars <!--[--><!--]--></a><!----></li><li><a href="/js/6-dars.html" class="sidebar-item" aria-label="📔 6-dars"><!--[--><!--]--> 📔 6-dars <!--[--><!--]--></a><!----></li><li><a href="/js/7-dars.html" class="sidebar-item" aria-label="📔 7-dars"><!--[--><!--]--> 📔 7-dars <!--[--><!--]--></a><!----></li><li><a href="/js/8-dars.html" class="sidebar-item" aria-label="📔 8-dars"><!--[--><!--]--> 📔 8-dars <!--[--><!--]--></a><!----></li><li><a href="/js/9-dars.html" class="sidebar-item" aria-label="📔 9-dars"><!--[--><!--]--> 📔 9-dars <!--[--><!--]--></a><!----></li><li><a href="/js/10-dars.html" class="sidebar-item" aria-label="📔 10-dars"><!--[--><!--]--> 📔 10-dars <!--[--><!--]--></a><!----></li><li><a href="/js/11-dars.html" class="sidebar-item" aria-label="📔 11-dars"><!--[--><!--]--> 📔 11-dars <!--[--><!--]--></a><!----></li><li><a href="/js/12-dars.html" class="sidebar-item" aria-label="📔 12-dars"><!--[--><!--]--> 📔 12-dars <!--[--><!--]--></a><!----></li><li><a href="/js/13-dars.html" class="sidebar-item" aria-label="📔 13-dars"><!--[--><!--]--> 📔 13-dars <!--[--><!--]--></a><!----></li><li><a href="/js/14-dars.html" class="sidebar-item" aria-label="📔 14-dars"><!--[--><!--]--> 📔 14-dars <!--[--><!--]--></a><!----></li><li><a href="/js/15-dars.html" class="sidebar-item" aria-label="📔 15-dars"><!--[--><!--]--> 📔 15-dars <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/js/16-dars.html" class="router-link-active router-link-exact-active router-link-active sidebar-item active" aria-label="📔 16-dars"><!--[--><!--]--> 📔 16-dars <!--[--><!--]--></a><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/js/16-dars.html#json" class="router-link-active router-link-exact-active sidebar-item" aria-label="JSON"><!--[--><!--]--> JSON <!--[--><!--]--></a><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/js/16-dars.html#json-ni-javascript-obyektiga-aylantirish" class="router-link-active router-link-exact-active sidebar-item" aria-label="JSON-ni JavaScript obyektiga aylantirish"><!--[--><!--]--> JSON-ni JavaScript obyektiga aylantirish <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/js/16-dars.html#json-parse-bilan-reviver-funksiyasidan-foydalanish" class="router-link-active router-link-exact-active sidebar-item" aria-label="JSON.parse() bilan reviver funksiyasidan foydalanish"><!--[--><!--]--> JSON.parse() bilan reviver funksiyasidan foydalanish <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/js/16-dars.html#ob-ektni-jsonga-aylantirish" class="router-link-active router-link-exact-active sidebar-item" aria-label="Ob&#39;ektni JSONga aylantirish"><!--[--><!--]--> Ob&#39;ektni JSONga aylantirish <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/js/16-dars.html#json-stringify-bilan-filtr-massividan-foydalanish" class="router-link-active router-link-exact-active sidebar-item" aria-label="JSON.stringify bilan filtr massividan foydalanish"><!--[--><!--]--> JSON.stringify bilan filtr massividan foydalanish <!--[--><!--]--></a><!----></li><!--]--></ul></li><li><a aria-current="page" href="/js/16-dars.html#mashqlar" class="router-link-active router-link-exact-active sidebar-item" aria-label="Mashqlar"><!--[--><!--]--> Mashqlar <!--[--><!--]--></a><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/js/16-dars.html#mashqlar-level-1" class="router-link-active router-link-exact-active sidebar-item" aria-label="Mashqlar Level 1"><!--[--><!--]--> Mashqlar Level 1 <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/js/16-dars.html#mashqlar-level-2" class="router-link-active router-link-exact-active sidebar-item" aria-label="Mashqlar Level 2"><!--[--><!--]--> Mashqlar Level 2 <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/js/16-dars.html#mashqlar-level-3" class="router-link-active router-link-exact-active sidebar-item" aria-label="Mashqlar Level 3"><!--[--><!--]--> Mashqlar Level 3 <!--[--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul></li><li><a href="/js/17-dars.html" class="sidebar-item" aria-label="📔 17-dars"><!--[--><!--]--> 📔 17-dars <!--[--><!--]--></a><!----></li><li><a href="/js/18-dars.html" class="sidebar-item" aria-label="📔 18-dars"><!--[--><!--]--> 📔 18-dars <!--[--><!--]--></a><!----></li><li><a href="/js/19-dars.html" class="sidebar-item" aria-label="📔 19-dars"><!--[--><!--]--> 📔 19-dars <!--[--><!--]--></a><!----></li><li><a href="/js/20-dars.html" class="sidebar-item" aria-label="📔 20-dars"><!--[--><!--]--> 📔 20-dars <!--[--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><!--[--><!--]--><div><h1 id="📔-16-dars" tabindex="-1"><a class="header-anchor" href="#📔-16-dars" aria-hidden="true">#</a> 📔 16-dars</h1><h2 id="json" tabindex="-1"><a class="header-anchor" href="#json" aria-hidden="true">#</a> JSON</h2><p>JSON JavaScript Object Notation degan ma&#39;noni anglatadi. JSON sintaksisi JavaScript ob&#39;ekt belgilari sintaksisidan olingan, ammo JSON formati faqat matn yoki satrdir. JSON saqlash va tashish uchun engil vaznli ma&#39;lumotlar formatidir. JSON asosan serverdan mijozga maʼlumotlar yuborilganda ishlatiladi. JSON - bu XML ga ishlatish uchun qulay muqobil.</p><p><strong>Misol:</strong></p><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token punctuation">{</span>
+<span class="token string-property property">&quot;users&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token string-property property">&quot;firstName&quot;</span><span class="token operator">:</span><span class="token string">&quot;Asabeneh&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;lastName&quot;</span><span class="token operator">:</span><span class="token string">&quot;Yetayeh&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;age&quot;</span><span class="token operator">:</span><span class="token number">250</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;email&quot;</span><span class="token operator">:</span><span class="token string">&quot;asab@asb.com&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token string-property property">&quot;firstName&quot;</span><span class="token operator">:</span><span class="token string">&quot;Alex&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;lastName&quot;</span><span class="token operator">:</span><span class="token string">&quot;James&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;age&quot;</span><span class="token operator">:</span><span class="token number">25</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;email&quot;</span><span class="token operator">:</span><span class="token string">&quot;alex@alex.com&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+  <span class="token string-property property">&quot;firstName&quot;</span><span class="token operator">:</span><span class="token string">&quot;Lidiya&quot;</span><span class="token punctuation">,</span>
+  <span class="token string-property property">&quot;lastName&quot;</span><span class="token operator">:</span><span class="token string">&quot;Tekle&quot;</span><span class="token punctuation">,</span>
+  <span class="token string-property property">&quot;age&quot;</span><span class="token operator">:</span><span class="token number">28</span><span class="token punctuation">,</span>
+  <span class="token string-property property">&quot;email&quot;</span><span class="token operator">:</span><span class="token string">&quot;lidiya@lidiya.com&quot;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Yuqoridagi JSON misoli oddiy ob&#39;ekt uchun unchalik farq qilmaydi. Xo&#39;sh, qanday farq bor? Farqi shundaki, JSON ob&#39;ektining kaliti qo&#39;sh tirnoqli bo&#39;lishi kerak yoki u satr bo&#39;lishi kerak. JavaScript Ob&#39;ekti va JSON juda o&#39;xshash, biz JSONni Ob&#39;ektga va Ob&#39;ektni JSONga o&#39;zgartirishimiz mumkin.</p><p>Keling, yuqoridagi misolni batafsil ko&#39;rib chiqaylik, u jingalak qavs bilan boshlanadi. Jingalak qavs ichida qiymatlar qatoriga ega bo&#39;lgan &quot;foydalanuvchilar&quot; tugmasi mavjud. Massiv ichida bizda turli xil ob&#39;ektlar bor va har bir ob&#39;ektda kalitlar mavjud, har bir kalitda qo&#39;sh tirnoq bo&#39;lishi kerak. Misol uchun, biz faqat firstName o&#39;rniga &quot;firstNaMe&quot; dan foydalanamiz, lekin ob&#39;ektda biz qo&#39;sh tirnoqsiz kalitlardan foydalanamiz. Bu ob&#39;ekt va JSON o&#39;rtasidagi asosiy farq. Keling, JSON haqida ko&#39;proq misollarni ko&#39;rib chiqaylik.</p><p><strong>Misol:</strong></p><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token punctuation">{</span>
+    <span class="token string-property property">&quot;Alex&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string-property property">&quot;email&quot;</span><span class="token operator">:</span> <span class="token string">&quot;alex@alex.com&quot;</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;skills&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">&quot;HTML&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;CSS&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;JavaScript&quot;</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;age&quot;</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;isLoggedIn&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;points&quot;</span><span class="token operator">:</span> <span class="token number">30</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;Asab&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string-property property">&quot;email&quot;</span><span class="token operator">:</span> <span class="token string">&quot;asab@asab.com&quot;</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;skills&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">&quot;HTML&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;CSS&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;JavaScript&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;Redux&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;MongoDB&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;Express&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;React&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;Node&quot;</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;age&quot;</span><span class="token operator">:</span> <span class="token number">25</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;isLoggedIn&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;points&quot;</span><span class="token operator">:</span> <span class="token number">50</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;Brook&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string-property property">&quot;email&quot;</span><span class="token operator">:</span> <span class="token string">&quot;daniel@daniel.com&quot;</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;skills&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">&quot;HTML&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;CSS&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;JavaScript&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;React&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;Redux&quot;</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;age&quot;</span><span class="token operator">:</span> <span class="token number">30</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;isLoggedIn&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;points&quot;</span><span class="token operator">:</span> <span class="token number">50</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;Daniel&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string-property property">&quot;email&quot;</span><span class="token operator">:</span> <span class="token string">&quot;daniel@alex.com&quot;</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;skills&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">&quot;HTML&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;CSS&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;JavaScript&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;Python&quot;</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;age&quot;</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;isLoggedIn&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;points&quot;</span><span class="token operator">:</span> <span class="token number">40</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;John&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string-property property">&quot;email&quot;</span><span class="token operator">:</span> <span class="token string">&quot;john@john.com&quot;</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;skills&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">&quot;HTML&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;CSS&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;JavaScript&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;React&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;Redux&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;Node.js&quot;</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;age&quot;</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;isLoggedIn&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;points&quot;</span><span class="token operator">:</span> <span class="token number">50</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;Thomas&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string-property property">&quot;email&quot;</span><span class="token operator">:</span> <span class="token string">&quot;thomas@thomas.com&quot;</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;skills&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">&quot;HTML&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;CSS&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;JavaScript&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;React&quot;</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;age&quot;</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;isLoggedIn&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;points&quot;</span><span class="token operator">:</span> <span class="token number">40</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;Paul&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string-property property">&quot;email&quot;</span><span class="token operator">:</span> <span class="token string">&quot;paul@paul.com&quot;</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;skills&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">&quot;HTML&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;CSS&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;JavaScript&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;MongoDB&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;Express&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;React&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;Node&quot;</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;age&quot;</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;isLoggedIn&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token string-property property">&quot;points&quot;</span><span class="token operator">:</span> <span class="token number">40</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="json-ni-javascript-obyektiga-aylantirish" tabindex="-1"><a class="header-anchor" href="#json-ni-javascript-obyektiga-aylantirish" aria-hidden="true">#</a> JSON-ni JavaScript obyektiga aylantirish</h3><p>Ko&#39;pincha biz JSON ma&#39;lumotlarini HTTP javobidan yoki fayldan olamiz, lekin biz JSONni satr sifatida saqlashimiz va namoyish qilish uchun Ob&#39;ektga o&#39;zgartirishimiz mumkin. JavaScript-da JSON kalit so&#39;zida parse () va stringify() usullari mavjud. JSONni ob&#39;ektga o&#39;zgartirmoqchi bo&#39;lganimizda, biz JSONni JSON.parse() yordamida tahlil qilamiz . Ob&#39;ektni JSONga o&#39;zgartirmoqchi bo&#39;lganimizda biz JSON.stringify() dan foydalanamiz .</p><h4 id="json-parse" tabindex="-1"><a class="header-anchor" href="#json-parse" aria-hidden="true">#</a> JSON.parse()</h4><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>json<span class="token punctuation">[</span><span class="token punctuation">,</span> reviver<span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token comment">// json or text , the data</span>
+<span class="token comment">// reviver is an optional callback function</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token keyword">const</span> usersText <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">{
+&quot;users&quot;:[
+  {
+    &quot;firstName&quot;:&quot;Asabeneh&quot;,
+    &quot;lastName&quot;:&quot;Yetayeh&quot;,
+    &quot;age&quot;:250,
+    &quot;email&quot;:&quot;asab@asb.com&quot;
+  },
+  {
+    &quot;firstName&quot;:&quot;Alex&quot;,
+    &quot;lastName&quot;:&quot;James&quot;,
+    &quot;age&quot;:25,
+    &quot;email&quot;:&quot;alex@alex.com&quot;
+  },
+  {
+  &quot;firstName&quot;:&quot;Lidiya&quot;,
+  &quot;lastName&quot;:&quot;Tekle&quot;,
+  &quot;age&quot;:28,
+  &quot;email&quot;:&quot;lidiya@lidiya.com&quot;
+  }
+]
+}</span><span class="token template-punctuation string">`</span></span>
+
+<span class="token keyword">const</span> usersObj <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>usersText<span class="token punctuation">,</span> <span class="token keyword">undefined</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>usersObj<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="json-parse-bilan-reviver-funksiyasidan-foydalanish" tabindex="-1"><a class="header-anchor" href="#json-parse-bilan-reviver-funksiyasidan-foydalanish" aria-hidden="true">#</a> JSON.parse() bilan reviver funksiyasidan foydalanish</h3><p>Reviver funktsiyasidan formatlovchi sifatida foydalanish uchun biz ism va familiya qiymatini formatlashni xohlagan kalitlarni qo&#39;yamiz. Aytaylik, biz JSON ma&#39;lumotlarining ismi va familiyasini formatlashdan manfaatdormiz.</p><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token keyword">const</span> usersText <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">{
+&quot;users&quot;:[
+  {
+    &quot;firstName&quot;:&quot;Asabeneh&quot;,
+    &quot;lastName&quot;:&quot;Yetayeh&quot;,
+    &quot;age&quot;:250,
+    &quot;email&quot;:&quot;asab@asb.com&quot;
+  },
+  {
+    &quot;firstName&quot;:&quot;Alex&quot;,
+    &quot;lastName&quot;:&quot;James&quot;,
+    &quot;age&quot;:25,
+    &quot;email&quot;:&quot;alex@alex.com&quot;
+  },
+  {
+  &quot;firstName&quot;:&quot;Lidiya&quot;,
+  &quot;lastName&quot;:&quot;Tekle&quot;,
+  &quot;age&quot;:28,
+  &quot;email&quot;:&quot;lidiya@lidiya.com&quot;
+  }
+]
+}</span><span class="token template-punctuation string">`</span></span>
+
+<span class="token keyword">const</span> usersObj <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>usersText<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">key<span class="token punctuation">,</span> value</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> newValue <span class="token operator">=</span>
+    <span class="token keyword">typeof</span> value <span class="token operator">==</span> <span class="token string">&#39;string&#39;</span> <span class="token operator">&amp;&amp;</span> key <span class="token operator">!=</span> <span class="token string">&#39;email&#39;</span> <span class="token operator">?</span> value<span class="token punctuation">.</span><span class="token function">toUpperCase</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">:</span> value
+  <span class="token keyword">return</span> newValue
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>usersObj<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><em>JSON.parse ()</em> dan foydalanish juda qulay. Siz ixtiyoriy parametrdan o&#39;tishingiz shart emas, uni faqat kerakli parametr bilan ishlatishingiz mumkin va siz juda ko&#39;p narsaga erishasiz.</p><h3 id="ob-ektni-jsonga-aylantirish" tabindex="-1"><a class="header-anchor" href="#ob-ektni-jsonga-aylantirish" aria-hidden="true">#</a> Ob&#39;ektni JSONga aylantirish</h3><p>Ob&#39;ektni JSONga o&#39;zgartirmoqchi bo&#39;lganimizda biz <em>JSON.stringify()</em> dan foydalanamiz . Stringify usuli bitta talab qilinadigan parametr va ikkita ixtiyoriy parametrni oladi. O&#39;zgartirish moslamasi filtr sifatida ishlatiladi va bo&#39;sh joy - chuqurchalar. Agar biz ob&#39;ektdan biron bir kalitni filtrlashni istamasak, biz aniqlanmagan holda o&#39;tishimiz mumkin.</p><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>obj<span class="token punctuation">,</span> replacer<span class="token punctuation">,</span> space<span class="token punctuation">)</span>
+<span class="token comment">// json or text , the data</span>
+<span class="token comment">// reviver is an optional callback function</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Keling, quyidagi ob&#39;ektni satrga aylantiramiz. Avval foydalanishga ruxsat bering, barcha kalitlarni saqlab qo&#39;ying va bizda 4 ta bo&#39;sh joy bo&#39;lsin.</p><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token keyword">const</span> users <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">Alex</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">email</span><span class="token operator">:</span> <span class="token string">&#39;alex@alex.com&#39;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">skills</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&#39;HTML&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;CSS&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;JavaScript&#39;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">age</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">isLoggedIn</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">points</span><span class="token operator">:</span> <span class="token number">30</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">Asab</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">email</span><span class="token operator">:</span> <span class="token string">&#39;asab@asab.com&#39;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">skills</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token string">&#39;HTML&#39;</span><span class="token punctuation">,</span>
+      <span class="token string">&#39;CSS&#39;</span><span class="token punctuation">,</span>
+      <span class="token string">&#39;JavaScript&#39;</span><span class="token punctuation">,</span>
+      <span class="token string">&#39;Redux&#39;</span><span class="token punctuation">,</span>
+      <span class="token string">&#39;MongoDB&#39;</span><span class="token punctuation">,</span>
+      <span class="token string">&#39;Express&#39;</span><span class="token punctuation">,</span>
+      <span class="token string">&#39;React&#39;</span><span class="token punctuation">,</span>
+      <span class="token string">&#39;Node&#39;</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">age</span><span class="token operator">:</span> <span class="token number">25</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">isLoggedIn</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">points</span><span class="token operator">:</span> <span class="token number">50</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">Brook</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">email</span><span class="token operator">:</span> <span class="token string">&#39;daniel@daniel.com&#39;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">skills</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&#39;HTML&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;CSS&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;JavaScript&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;React&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;Redux&#39;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">age</span><span class="token operator">:</span> <span class="token number">30</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">isLoggedIn</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">points</span><span class="token operator">:</span> <span class="token number">50</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">Daniel</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">email</span><span class="token operator">:</span> <span class="token string">&#39;daniel@alex.com&#39;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">skills</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&#39;HTML&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;CSS&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;JavaScript&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;Python&#39;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">age</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">isLoggedIn</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">points</span><span class="token operator">:</span> <span class="token number">40</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">John</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">email</span><span class="token operator">:</span> <span class="token string">&#39;john@john.com&#39;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">skills</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&#39;HTML&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;CSS&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;JavaScript&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;React&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;Redux&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;Node.js&#39;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">age</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">isLoggedIn</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">points</span><span class="token operator">:</span> <span class="token number">50</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">Thomas</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">email</span><span class="token operator">:</span> <span class="token string">&#39;thomas@thomas.com&#39;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">skills</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&#39;HTML&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;CSS&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;JavaScript&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;React&#39;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">age</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">isLoggedIn</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">points</span><span class="token operator">:</span> <span class="token number">40</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">Paul</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">email</span><span class="token operator">:</span> <span class="token string">&#39;paul@paul.com&#39;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">skills</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token string">&#39;HTML&#39;</span><span class="token punctuation">,</span>
+      <span class="token string">&#39;CSS&#39;</span><span class="token punctuation">,</span>
+      <span class="token string">&#39;JavaScript&#39;</span><span class="token punctuation">,</span>
+      <span class="token string">&#39;MongoDB&#39;</span><span class="token punctuation">,</span>
+      <span class="token string">&#39;Express&#39;</span><span class="token punctuation">,</span>
+      <span class="token string">&#39;React&#39;</span><span class="token punctuation">,</span>
+      <span class="token string">&#39;Node&#39;</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">age</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">isLoggedIn</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">points</span><span class="token operator">:</span> <span class="token number">40</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> txt <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>users<span class="token punctuation">,</span> <span class="token keyword">undefined</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>txt<span class="token punctuation">)</span> <span class="token comment">// matn JSON- degan ma&#39;noni anglatadi, chunki json ob&#39;ektning satr shaklidir.</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token punctuation">{</span>
+    <span class="token string">&quot;Alex&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;email&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;alex@alex.com&quot;</span>,
+        <span class="token string">&quot;skills&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+            <span class="token string">&quot;HTML&quot;</span>,
+            <span class="token string">&quot;CSS&quot;</span>,
+            <span class="token string">&quot;JavaScript&quot;</span>
+        <span class="token punctuation">]</span>,
+        <span class="token string">&quot;age&quot;</span><span class="token builtin class-name">:</span> <span class="token number">20</span>,
+        <span class="token string">&quot;isLoggedIn&quot;</span><span class="token builtin class-name">:</span> false,
+        <span class="token string">&quot;points&quot;</span><span class="token builtin class-name">:</span> <span class="token number">30</span>
+    <span class="token punctuation">}</span>,
+    <span class="token string">&quot;Asab&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;email&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;asab@asab.com&quot;</span>,
+        <span class="token string">&quot;skills&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+            <span class="token string">&quot;HTML&quot;</span>,
+            <span class="token string">&quot;CSS&quot;</span>,
+            <span class="token string">&quot;JavaScript&quot;</span>,
+            <span class="token string">&quot;Redux&quot;</span>,
+            <span class="token string">&quot;MongoDB&quot;</span>,
+            <span class="token string">&quot;Express&quot;</span>,
+            <span class="token string">&quot;React&quot;</span>,
+            <span class="token string">&quot;Node&quot;</span>
+        <span class="token punctuation">]</span>,
+        <span class="token string">&quot;age&quot;</span><span class="token builtin class-name">:</span> <span class="token number">25</span>,
+        <span class="token string">&quot;isLoggedIn&quot;</span><span class="token builtin class-name">:</span> false,
+        <span class="token string">&quot;points&quot;</span><span class="token builtin class-name">:</span> <span class="token number">50</span>
+    <span class="token punctuation">}</span>,
+    <span class="token string">&quot;Brook&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;email&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;daniel@daniel.com&quot;</span>,
+        <span class="token string">&quot;skills&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+            <span class="token string">&quot;HTML&quot;</span>,
+            <span class="token string">&quot;CSS&quot;</span>,
+            <span class="token string">&quot;JavaScript&quot;</span>,
+            <span class="token string">&quot;React&quot;</span>,
+            <span class="token string">&quot;Redux&quot;</span>
+        <span class="token punctuation">]</span>,
+        <span class="token string">&quot;age&quot;</span><span class="token builtin class-name">:</span> <span class="token number">30</span>,
+        <span class="token string">&quot;isLoggedIn&quot;</span><span class="token builtin class-name">:</span> true,
+        <span class="token string">&quot;points&quot;</span><span class="token builtin class-name">:</span> <span class="token number">50</span>
+    <span class="token punctuation">}</span>,
+    <span class="token string">&quot;Daniel&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;email&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;daniel@alex.com&quot;</span>,
+        <span class="token string">&quot;skills&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+            <span class="token string">&quot;HTML&quot;</span>,
+            <span class="token string">&quot;CSS&quot;</span>,
+            <span class="token string">&quot;JavaScript&quot;</span>,
+            <span class="token string">&quot;Python&quot;</span>
+        <span class="token punctuation">]</span>,
+        <span class="token string">&quot;age&quot;</span><span class="token builtin class-name">:</span> <span class="token number">20</span>,
+        <span class="token string">&quot;isLoggedIn&quot;</span><span class="token builtin class-name">:</span> false,
+        <span class="token string">&quot;points&quot;</span><span class="token builtin class-name">:</span> <span class="token number">40</span>
+    <span class="token punctuation">}</span>,
+    <span class="token string">&quot;John&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;email&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;john@john.com&quot;</span>,
+        <span class="token string">&quot;skills&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+            <span class="token string">&quot;HTML&quot;</span>,
+            <span class="token string">&quot;CSS&quot;</span>,
+            <span class="token string">&quot;JavaScript&quot;</span>,
+            <span class="token string">&quot;React&quot;</span>,
+            <span class="token string">&quot;Redux&quot;</span>,
+            <span class="token string">&quot;Node.js&quot;</span>
+        <span class="token punctuation">]</span>,
+        <span class="token string">&quot;age&quot;</span><span class="token builtin class-name">:</span> <span class="token number">20</span>,
+        <span class="token string">&quot;isLoggedIn&quot;</span><span class="token builtin class-name">:</span> true,
+        <span class="token string">&quot;points&quot;</span><span class="token builtin class-name">:</span> <span class="token number">50</span>
+    <span class="token punctuation">}</span>,
+    <span class="token string">&quot;Thomas&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;email&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;thomas@thomas.com&quot;</span>,
+        <span class="token string">&quot;skills&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+            <span class="token string">&quot;HTML&quot;</span>,
+            <span class="token string">&quot;CSS&quot;</span>,
+            <span class="token string">&quot;JavaScript&quot;</span>,
+            <span class="token string">&quot;React&quot;</span>
+        <span class="token punctuation">]</span>,
+        <span class="token string">&quot;age&quot;</span><span class="token builtin class-name">:</span> <span class="token number">20</span>,
+        <span class="token string">&quot;isLoggedIn&quot;</span><span class="token builtin class-name">:</span> false,
+        <span class="token string">&quot;points&quot;</span><span class="token builtin class-name">:</span> <span class="token number">40</span>
+    <span class="token punctuation">}</span>,
+    <span class="token string">&quot;Paul&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;email&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;paul@paul.com&quot;</span>,
+        <span class="token string">&quot;skills&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+            <span class="token string">&quot;HTML&quot;</span>,
+            <span class="token string">&quot;CSS&quot;</span>,
+            <span class="token string">&quot;JavaScript&quot;</span>,
+            <span class="token string">&quot;MongoDB&quot;</span>,
+            <span class="token string">&quot;Express&quot;</span>,
+            <span class="token string">&quot;React&quot;</span>,
+            <span class="token string">&quot;Node&quot;</span>
+        <span class="token punctuation">]</span>,
+        <span class="token string">&quot;age&quot;</span><span class="token builtin class-name">:</span> <span class="token number">20</span>,
+        <span class="token string">&quot;isLoggedIn&quot;</span><span class="token builtin class-name">:</span> false,
+        <span class="token string">&quot;points&quot;</span><span class="token builtin class-name">:</span> <span class="token number">40</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="json-stringify-bilan-filtr-massividan-foydalanish" tabindex="-1"><a class="header-anchor" href="#json-stringify-bilan-filtr-massividan-foydalanish" aria-hidden="true">#</a> JSON.stringify bilan filtr massividan foydalanish</h3><p>Keling, almashtirgichni filtr sifatida ishlatamiz. Foydalanuvchi ob&#39;ektida kalitlarning uzoq ro&#39;yxati mavjud, ammo biz ulardan faqat bir nechtasi bilan qiziqamiz. Biz saqlamoqchi bo&#39;lgan kalitlarni misolda ko&#39;rsatilganidek, massivga joylashtiramiz va uni almashtiruvchi o&#39;rniga ishlatamiz.</p><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token keyword">const</span> user <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">firstName</span><span class="token operator">:</span> <span class="token string">&#39;Asabeneh&#39;</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">lastName</span><span class="token operator">:</span> <span class="token string">&#39;Yetayeh&#39;</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">country</span><span class="token operator">:</span> <span class="token string">&#39;Finland&#39;</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">city</span><span class="token operator">:</span> <span class="token string">&#39;Helsinki&#39;</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">email</span><span class="token operator">:</span> <span class="token string">&#39;alex@alex.com&#39;</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">skills</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&#39;HTML&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;CSS&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;JavaScript&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;React&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;Pyhton&#39;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">age</span><span class="token operator">:</span> <span class="token number">250</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">isLoggedIn</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">points</span><span class="token operator">:</span> <span class="token number">30</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> txt <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>user<span class="token punctuation">,</span><span class="token punctuation">[</span><span class="token string">&#39;firstName&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;lastName&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;country&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;city&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;age&#39;</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>txt<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token punctuation">{</span>
+    <span class="token string">&quot;firstName&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;Asabeneh&quot;</span>,
+    <span class="token string">&quot;lastName&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;Yetayeh&quot;</span>,
+    <span class="token string">&quot;country&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;Finland&quot;</span>,
+    <span class="token string">&quot;city&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;Helsinki&quot;</span>,
+    <span class="token string">&quot;age&quot;</span><span class="token builtin class-name">:</span> <span class="token number">250</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>🌕 Siz g&#39;ayrioddiysiz. Endi siz ma&#39;lumotlarni saqlash yoki HTTP serverini yuborish uchun foydalanishingiz mumkin bo&#39;lgan engil ma&#39;lumotlar formatini bildingiz. Siz buyuklik sari 16 qadam oldindasiz. Endi miyangiz va mushaklaringiz uchun bir nechta mashqlarni bajaring.</p><h2 id="mashqlar" tabindex="-1"><a class="header-anchor" href="#mashqlar" aria-hidden="true">#</a> Mashqlar</h2><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token keyword">const</span> skills <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">&#39;HTML&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;CSS&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;JS&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;React&#39;</span><span class="token punctuation">,</span><span class="token string">&#39;Node&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;Python&#39;</span><span class="token punctuation">]</span>
+<span class="token keyword">let</span> age <span class="token operator">=</span> <span class="token number">250</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> isMarried <span class="token operator">=</span> <span class="token boolean">true</span>
+<span class="token keyword">const</span> student <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">firstName</span><span class="token operator">:</span><span class="token string">&#39;Asabeneh&#39;</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">lastName</span><span class="token operator">:</span><span class="token string">&#39;Yetayehe&#39;</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">age</span><span class="token operator">:</span><span class="token number">250</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">isMarried</span><span class="token operator">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">skills</span><span class="token operator">:</span><span class="token punctuation">[</span><span class="token string">&#39;HTML&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;CSS&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;JS&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;React&#39;</span><span class="token punctuation">,</span><span class="token string">&#39;Node&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;Python&#39;</span><span class="token punctuation">,</span> <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">const</span> txt <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">{
+    &quot;Alex&quot;: {
+        &quot;email&quot;: &quot;alex@alex.com&quot;,
+        &quot;skills&quot;: [
+            &quot;HTML&quot;,
+            &quot;CSS&quot;,
+            &quot;JavaScript&quot;
+        ],
+        &quot;age&quot;: 20,
+        &quot;isLoggedIn&quot;: false,
+        &quot;points&quot;: 30
+    },
+    &quot;Asab&quot;: {
+        &quot;email&quot;: &quot;asab@asab.com&quot;,
+        &quot;skills&quot;: [
+            &quot;HTML&quot;,
+            &quot;CSS&quot;,
+            &quot;JavaScript&quot;,
+            &quot;Redux&quot;,
+            &quot;MongoDB&quot;,
+            &quot;Express&quot;,
+            &quot;React&quot;,
+            &quot;Node&quot;
+        ],
+        &quot;age&quot;: 25,
+        &quot;isLoggedIn&quot;: false,
+        &quot;points&quot;: 50
+    },
+    &quot;Brook&quot;: {
+        &quot;email&quot;: &quot;daniel@daniel.com&quot;,
+        &quot;skills&quot;: [
+            &quot;HTML&quot;,
+            &quot;CSS&quot;,
+            &quot;JavaScript&quot;,
+            &quot;React&quot;,
+            &quot;Redux&quot;
+        ],
+        &quot;age&quot;: 30,
+        &quot;isLoggedIn&quot;: true,
+        &quot;points&quot;: 50
+    },
+    &quot;Daniel&quot;: {
+        &quot;email&quot;: &quot;daniel@alex.com&quot;,
+        &quot;skills&quot;: [
+            &quot;HTML&quot;,
+            &quot;CSS&quot;,
+            &quot;JavaScript&quot;,
+            &quot;Python&quot;
+        ],
+        &quot;age&quot;: 20,
+        &quot;isLoggedIn&quot;: false,
+        &quot;points&quot;: 40
+    },
+    &quot;John&quot;: {
+        &quot;email&quot;: &quot;john@john.com&quot;,
+        &quot;skills&quot;: [
+            &quot;HTML&quot;,
+            &quot;CSS&quot;,
+            &quot;JavaScript&quot;,
+            &quot;React&quot;,
+            &quot;Redux&quot;,
+            &quot;Node.js&quot;
+        ],
+        &quot;age&quot;: 20,
+        &quot;isLoggedIn&quot;: true,
+        &quot;points&quot;: 50
+    },
+    &quot;Thomas&quot;: {
+        &quot;email&quot;: &quot;thomas@thomas.com&quot;,
+        &quot;skills&quot;: [
+            &quot;HTML&quot;,
+            &quot;CSS&quot;,
+            &quot;JavaScript&quot;,
+            &quot;React&quot;
+        ],
+        &quot;age&quot;: 20,
+        &quot;isLoggedIn&quot;: false,
+        &quot;points&quot;: 40
+    },
+    &quot;Paul&quot;: {
+        &quot;email&quot;: &quot;paul@paul.com&quot;,
+        &quot;skills&quot;: [
+            &quot;HTML&quot;,
+            &quot;CSS&quot;,
+            &quot;JavaScript&quot;,
+            &quot;MongoDB&quot;,
+            &quot;Express&quot;,
+            &quot;React&quot;,
+            &quot;Node&quot;
+        ],
+        &quot;age&quot;: 20,
+        &quot;isLoggedIn&quot;: false,
+        &quot;points&quot;: 40
+    }
+}
+</span><span class="token template-punctuation string">`</span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="mashqlar-level-1" tabindex="-1"><a class="header-anchor" href="#mashqlar-level-1" aria-hidden="true">#</a> Mashqlar Level 1</h3><ol><li><p>JSON.stringify() yordamida ko&#39;nikmalar massivini JSONga o&#39;zgartiring</p></li><li><p>Yosh o&#39;zgaruvchisini belgilang</p></li><li><p>isMarried o&#39;zgaruvchisini chiziqqa aylantiring</p></li><li><p>Talaba ob&#39;ektini chiziqlash</p></li></ol><h3 id="mashqlar-level-2" tabindex="-1"><a class="header-anchor" href="#mashqlar-level-2" aria-hidden="true">#</a> Mashqlar Level 2</h3><ol><li>Talabalar ob&#39;ektini faqat birinchi ism, familiya va ko&#39;nikmalar xususiyatlari bilan ajratib oling</li></ol><h3 id="mashqlar-level-3" tabindex="-1"><a class="header-anchor" href="#mashqlar-level-3" aria-hidden="true">#</a> Mashqlar Level 3</h3><ol><li>Ob&#39;ekt uchun <em>txt</em> JSON faylini tahlil qiling.</li><li><em>txt</em> da saqlangan o&#39;zgaruvchidan ko&#39;plab ko&#39;nikmalarga ega foydalanuvchini toping .</li></ol></div><!--[--><!--]--></div><footer class="page-meta"><!----><!----><!----></footer><nav class="page-nav"><p class="inner"><span class="prev"><a href="/js/15-dars.html" class="" aria-label="📔 15-dars"><!--[--><!--]--> 📔 15-dars <!--[--><!--]--></a></span><span class="next"><a href="/js/17-dars.html" class="" aria-label="📔 17-dars"><!--[--><!--]--> 📔 17-dars <!--[--><!--]--></a></span></p></nav><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script type="module" src="/assets/app-d17e5b05.js" defer></script>
+  </body>
+</html>
