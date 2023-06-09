@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-74458d05","path":"/css/","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1686145583000,"contributors":[{"name":"Islom Karimov","email":"islomkarimovalisherovich@gmail.com","commits":3}]},"filePathRelative":"css/index.md"}');export{e as data};

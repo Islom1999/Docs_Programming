@@ -1,1 +1,0 @@
-import{_ as a,o as r,c as t,d as e,f as s}from"./app-d17e5b05.js";const c={},i=e("h1",{id:"javascript-darslari",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#javascript-darslari","aria-hidden":"true"},"#"),s(" Javascript Darslari")],-1),d=[i];function n(o,_){return r(),t("div",null,d)}const h=a(c,[["render",n],["__file","index.html.vue"]]);export{h as default};
