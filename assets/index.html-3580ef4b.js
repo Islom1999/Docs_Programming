@@ -1,0 +1,1 @@
+const a=JSON.parse(`{"key":"v-744b4c30","path":"/php/","title":"Ro'yhat","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1687593919000,"contributors":[{"name":"Islom Karimov","email":"islomkarimovalisherovich@gmail.com","commits":1}]},"filePathRelative":"php/index.md"}`);export{a as data};
