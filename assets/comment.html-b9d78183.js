@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-60ba96bb","path":"/php/tutorial/comment.html","title":"📔 PHP sharhlari","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"PHP da sharhlar","slug":"php-da-sharhlar","link":"#php-da-sharhlar","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"php/tutorial/comment.md"}');export{a as data};
