@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-3e9a322e","path":"/php/tutorial/phpSwitch.html","title":"📔 PHP switch","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"PHP switch bayonoti","slug":"php-switch-bayonoti","link":"#php-switch-bayonoti","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"php/tutorial/phpSwitch.md"}');export{t as data};
