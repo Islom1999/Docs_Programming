@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-392a0247","path":"/php/advanced/cookies.html","title":"📔 PHP Cookies","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"PHP Cookies","slug":"php-cookies","link":"#php-cookies","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"php/advanced/cookies.md"}');export{e as data};
